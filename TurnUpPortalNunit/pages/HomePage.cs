@@ -25,7 +25,7 @@ namespace TurnUpPortalNunit.pages
         }
         public void GoToTMPage(IWebDriver driver)
         {
-           try
+            try
             {
 
                 IWebElement AdmintrationDropdown = driver.FindElement(By.XPath("/html/body/div[3]/div/div/ul/li[5]/a"));
@@ -42,6 +42,22 @@ namespace TurnUpPortalNunit.pages
             clickTMOption.Click();
 
         }
+
+        public void GoToEmployeePage()
+        {
+            //code to navigates to employee page
+        }
+
+
     }
+
+
+
+
+
+
+
+
+
 }
    

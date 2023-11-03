@@ -14,6 +14,7 @@ namespace TurnUpPortalNunit.Test
 {
 
     [TestFixture]
+    [Parallelizable]
     public class TMTest:CommonDriver
     {
         [SetUp]

@@ -19,6 +19,7 @@ namespace TurnUpPortalNunit.pages
 
             Wait.WaitToBeClickable(driver, "Xpath", "//*[@id=\"container\"]/p/a", 5);
             //Click on the Create new button for creating a new record in the time & materials module
+            
             IWebElement createnewbutton = driver.FindElement(By.XPath("//*[@id=\"container\"]/p/a"));
             createnewbutton.Click();
 

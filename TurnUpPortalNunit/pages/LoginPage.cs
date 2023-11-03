@@ -32,7 +32,10 @@ namespace TurnUpPortalNunit.pages
             logingButton.Click();
         }
 
-
+        internal void LoginSteps(IWebDriver driver)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
